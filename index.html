@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reyoung</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Exercise Recommendation</h1>
+  <form id="recommendationForm">
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" required>
+
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" required>
+
+    <label for="needs">Specific Needs:</label>
+    <textarea id="needs"></textarea>
+
+    <button type="submit">Get Exercise Recommendation</button>
+  </form>
+  <div id="recommendations"></div>
+  <div id="exerciseImage"></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

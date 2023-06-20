@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  color: #1C1AAB;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align form elements */
+}
+
+form label {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+}
+
+input[type="number"],
+textarea {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #1C1AAB;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+#recommendations {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #1C1AAB;
+}
